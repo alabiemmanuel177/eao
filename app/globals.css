@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@layer base {
+  @font-face {
+    font-family: Graphik Medium;
+    src: url("https://framerusercontent.com/assets/tagxH3tvhUVx2wshWNOd0lrs0k.woff2")
+      format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Lufga Bold;
+    src: url("https://framerusercontent.com/assets/6vjoaheudQZZ2vE9zZI7QmsG4HU.woff2")
+      format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Lufga Black;
+    src: url("https://framerusercontent.com/assets/PAIW35Y5Jma4lwrv6kDIRUBJ9qs.woff2")
+      format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Lufga Medium;
+    src: url("https://framerusercontent.com/assets/dzvaXByaVQhBNtRlG4JNIOVmoBQ.woff2")
+      format("woff2");
+    font-display: swap;
+  }
+}
