@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import BottomNav from "./components/BottomNav/BottomNav";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Emmanuel Alabi - Software Engineer",
@@ -58,10 +57,11 @@ export default function RootLayout({
           rel="stylesheet"
         /> */}
       </head>
-      <body className=" flex flex-col items-center">
+      <body className="flex flex-col items-center">
         <Nav />
         {children}
-        <Footer/>
+        <Footer />
+        <BottomNav/>
       </body>
     </html>
   );
