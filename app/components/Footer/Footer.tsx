@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="py-[25px] max-w-[1200px] items-start flex w-full flex-col mt-[60px] mb-[80px] custom-below-425:mt-[30px] custom-below-1024:max-w-[92%]">
+    <footer className="py-[25px] max-w-[1200px] items-start flex w-full flex-col mt-[60px] mb-[80px] custom-below-425:mt-[30px] custom-below-1024:max-w-[92%] slide-up">
       <h1 className="font-LufgaBold text-[28px]">Contact Me</h1>
       <div className="mt-[20px]">
         <h2 className="font-LufgaBold text-[#666666] text-[20px] text-wrap custom-below-425:text-[16px]">

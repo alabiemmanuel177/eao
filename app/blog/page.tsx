@@ -1,14 +1,15 @@
 export default function Blog() {
   return (
     <div className="max-w-[1200px] items-center flex w-full flex-col mt-12 custom-below-1024:max-w-[92%]">
-      <h1 className="font-LufgaBold text-[48px] tracking-[-0.03em] m-0 p-0 leading-[1.2em] font-normal">
+      <h1 className="font-LufgaBold text-[48px] tracking-[-0.03em] m-0 p-0 leading-[1.2em] font-normal slide-up1">
         Blog
       </h1>
-      <p className="text-[#666666] text-center font-LufgaMedium text-[16px] mt-[20px] tracking-[-0.02em] leading-[1.4em] font-normal max-w-[796px]">
-        EAO is very versatile when it comes to research - primary focus on Core
-        ML, Reinforcement & Deep Learning Models - but I have used my technical
-        prowess to solve problems in other fields like Quantum Computing, Data
-        Science & Analysis, Aerospace + System Engineering and more.
+      <p className="text-[#666666] text-center font-LufgaMedium text-[16px] mt-[20px] tracking-[-0.02em] leading-[1.4em] font-normal max-w-[796px] slide-up1">
+        Emmanuel delves into a diverse range of topics on his blog, from
+        Fullstack Development and Mobile App Innovation to exploring the
+        frontiers of Machine Learning, Cyber Security, and more. Each post
+        reflects a commitment to solving complex problems and sharing knowledge
+        across various fields of technology.
       </p>
       <div
         className="h-[330px] w-[796px] mt-[20px] rounded-[12px] custom-below-1024:w-full"
@@ -34,7 +35,8 @@ export default function Blog() {
             objectFit: "cover",
             imageRendering: "auto",
           }}
-        ></img>
+          className="slide-up1"
+        />
       </div>
       <div className="w-full mt-[100px] custom-below-1024:w-full">
         <div className="flex w-full flex-row items-start justify-between custom-below-425:flex-col">

@@ -3,13 +3,12 @@ import Image from "next/image";
 export default function Project() {
   return (
     <div className="max-w-[1200px] items-center flex w-full flex-col mt-12 custom-below-1024:max-w-[92%]">
-      <h1 className="font-LufgaBold text-[48px] tracking-[-0.03em] m-0 p-0 leading-[1.2em] font-normal">
+      <h1 className="font-LufgaBold text-[48px] tracking-[-0.03em] m-0 p-0 leading-[1.2em] font-normal slide-up1">
         Projects
       </h1>
-      <p className="text-[#666666] text-center font-LufgaMedium text-[16px] mt-[20px] tracking-[-0.02em] leading-[1.4em] font-normal">
-        Coding is like a puzzle, and sometimes the best way to solve it is to
-        take a step back <br />
-        and look at the big picture. - Teddy Oweh
+      <p className="text-[#666666] text-center font-LufgaMedium text-[16px] mt-[20px] tracking-[-0.02em] leading-[1.4em] font-normal slide-up1">
+        Every line of code is a step in a journey, where imagination meets logic
+        <br /> to create the extraordinary. - Emmanuel Alabi Olasubomi
       </p>
       <div
         className="h-[330px] w-[796px] mt-[20px] rounded-[12px] custom-below-1280:w-[1120px] custom-below-1024:w-full"
@@ -35,7 +34,8 @@ export default function Project() {
             objectFit: "cover",
             imageRendering: "auto",
           }}
-        ></img>
+          className="slide-up1"
+        />
       </div>
       <div className="w-full flex items-center flex-col mt-[100px]">
         <div className="max-w-[1120px] w-full bg-[#e8ecef] flex items-center h-[51.2px] px-[32px] py-[16px] rounded-[8px]">
@@ -87,10 +87,10 @@ export default function Project() {
             </p>
             <div className="flex flex-row font-LufgaMedium text-[20px] custom-below-375:text-[16px] custom-below-325:text-[14px] custom-below-375:mt-4 text-[#002ee6] mt-8">
               <p className="mr-4">
-                <a href="https://github.com/teddyoweh/acadu">Demo</a>
+                <a href="https://github.com/alabiemmanuel177/acadu">Demo</a>
               </p>
               <p>
-                <a href="https://github.com/teddyoweh/acadu">Github</a>
+                <a href="https://github.com/alabiemmanuel177/acadu">Github</a>
               </p>
             </div>
             <div className="flex flex-row font-LufgaBold text-[20px] custom-below-375:text-[16px] custom-below-325:text-[14px] text-[#666666]">
@@ -110,10 +110,10 @@ export default function Project() {
             </p>
             <div className="flex flex-row font-LufgaMedium text-[20px] custom-below-375:text-[16px] custom-below-325:text-[14px] custom-below-375:mt-4 text-[#002ee6] mt-8">
               <p className="mr-4">
-                <a href="https://github.com/teddyoweh/acadu">Demo</a>
+                <a href="https://github.com/alabiemmanuel177/acadu">Demo</a>
               </p>
               <p>
-                <a href="https://github.com/teddyoweh/acadu">Github</a>
+                <a href="https://github.com/alabiemmanuel177/acadu">Github</a>
               </p>
             </div>
             <div className="flex flex-row font-LufgaBold text-[20px] custom-below-375:text-[16px] custom-below-325:text-[14px] text-[#666666]">
@@ -133,10 +133,10 @@ export default function Project() {
             </p>
             <div className="flex flex-row font-LufgaMedium text-[20px] custom-below-375:text-[16px] custom-below-325:text-[14px] custom-below-375:mt-4 text-[#002ee6] mt-8">
               <p className="mr-4">
-                <a href="https://github.com/teddyoweh/acadu">Demo</a>
+                <a href="https://github.com/alabiemmanuel177/acadu">Demo</a>
               </p>
               <p>
-                <a href="https://github.com/teddyoweh/acadu">Github</a>
+                <a href="https://github.com/alabiemmanuel177/acadu">Github</a>
               </p>
             </div>
             <div className="flex flex-row font-LufgaBold text-[20px] custom-below-375:text-[16px] custom-below-325:text-[14px] text-[#666666]">
@@ -156,10 +156,10 @@ export default function Project() {
             </p>
             <div className="flex flex-row font-LufgaMedium text-[20px] custom-below-375:text-[16px] custom-below-325:text-[14px] custom-below-375:mt-4 text-[#002ee6] mt-8">
               <p className="mr-4">
-                <a href="https://github.com/teddyoweh/acadu">Demo</a>
+                <a href="https://github.com/alabiemmanuel177/acadu">Demo</a>
               </p>
               <p>
-                <a href="https://github.com/teddyoweh/acadu">Github</a>
+                <a href="https://github.com/alabiemmanuel177/acadu">Github</a>
               </p>
             </div>
             <div className="flex flex-row font-LufgaBold text-[20px] custom-below-375:text-[16px] custom-below-325:text-[14px] text-[#666666]">

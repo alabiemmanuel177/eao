@@ -39,3 +39,59 @@ body {
     font-display: swap;
   }
 }
+.bottomnav {
+  opacity: 1;
+  transform: perspective(1200px) translateX(0px) translateY(0px) scale(1)
+    rotate(0deg) rotateX(0deg) rotateY(0deg) skewX(0deg) skewY(0deg)
+    translateZ(0px);
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.slide-up {
+  animation-name: slideFadeUp;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+.slide-up1 {
+  animation-name: slideFadeUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideFadeUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.slide-down {
+  animation-name: slideFadeDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideFadeDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+}

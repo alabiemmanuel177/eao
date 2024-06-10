@@ -13,7 +13,7 @@ export default function BottomNav() {
     { name: "Blog", to: "/blog" },
   ];
   return (
-    <nav className="flex items-center max-w-[1200px] w-full justify-center opacity-[1] bottom-4 fixed custom-below-1024:max-w-[92%]">
+    <nav className="flex items-center max-w-[1200px] w-full justify-center opacity-[1] bottom-4 fixed custom-below-1024:max-w-[92%] slide-up1">
       <div
         className="max-w-[520px] w-full bg-[#121212] h-[72px] rounded-2xl gap-[40px] flex flex-col overflow-hidden p-[20px] items-center content-center justify-center"
         style={{
