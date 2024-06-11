@@ -28,7 +28,7 @@ export default function About() {
                 Babcock University,
               </span>
             </Link>
-            where I developed a robust foundation in full-stack and mobile
+            {" "}where I developed a robust foundation in full-stack and mobile
             development, system architecture, and cloud computing.
           </p>
           <p className="mb-[10px] font-LufgaMedium text-[#666666] text-[16px]">

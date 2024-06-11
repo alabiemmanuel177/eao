@@ -16,11 +16,11 @@ export default function Home() {
         Infrastructure Systems & Web + Mobile Apps.
       </p>
       <p className="text-[#666666] font-LufgaMedium text-[20px] mt-[20px] tracking-[-0.02em] leading-[1.4em] font-normal custom-below-425:text-[16px]">
-         CEO{" "}
+         CEO of{" "}
         <span className="text-[#002ee6] cursor-pointer hover:line-through">
           Techgate
         </span>
-        , Founder{" "}
+        , Founder of{" "}
         <span className="text-[#002ee6] cursor-pointer hover:line-through">
           Acadu
         </span>
