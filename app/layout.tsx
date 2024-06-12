@@ -2,6 +2,7 @@ import "./globals.css";
 import Nav from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import BottomNav from "./components/BottomNav/BottomNav";
+import logo from './assets/logo.png'
 
 export const metadata = {
   title: "Emmanuel Alabi - Software Engineer",
@@ -18,7 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Emmanuel Alabi - Software Engineer</title>
-        {/* <link rel="icon" href={logo.src} sizes='80x80' /> */}
         {/* <script
           async
           src="https://analytics.eu.umami.is/script.js"
@@ -34,7 +34,7 @@ export default function RootLayout({
           content="Emmanuel Alabi - Software Engineer"
         />
         <meta property="og:type" content="website" />
-        {/* <link rel="icon" href={logo.src} sizes="80x80" /> */}
+        <link rel="icon" href={logo.src} sizes="80x80" />
         {/* <meta property="og:url" content="https://teddyoweh.net" /> */}
         {/* <meta property="og:image" content={teddyimg.src} /> */}
         <meta
