@@ -29,7 +29,7 @@ export default function BottomNav() {
                 <span
                   className={`${
                     pathname === link.to ? "text-white" : "text-[#666666]"
-                  } hover:text-[#fff] font-GraphikMedium text-[18px] cursor-pointer hover:line-through`}
+                  } hover:text-[#fff] font-GraphikMedium text-[18px] custom-below-425:text-[14px] cursor-pointer hover:line-through custom-below-768:hover:no-underline`}
                 >
                   {link.name}
                 </span>

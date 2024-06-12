@@ -42,33 +42,33 @@ export default function Project() {
           <p className="text-16px font-LufgaMedium">Search</p>
         </div>
         <div className="w-full flex-wrap flex flex-row max-w-[1120px] mt-4">
-          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-black cursor-pointer">
+          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-[#121212] cursor-pointer">
             <p className="font-LufgaMedium text-[16px]">All</p>
           </div>
-          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-black cursor-pointer">
+          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-[#121212] cursor-pointer">
             <p className="font-LufgaMedium text-[16px]">
               Machine Learning / Artificial Intelligence
             </p>
           </div>
-          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-black cursor-pointer">
+          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-[#121212] cursor-pointer">
             <p className="font-LufgaMedium text-[16px]">
               Backend / Microservice Systems
             </p>
           </div>
-          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-black cursor-pointer">
+          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-[#121212] cursor-pointer">
             <p className="font-LufgaMedium text-[16px]">
               Frontend & UI Development
             </p>
           </div>
-          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-black cursor-pointer">
+          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-[#121212] cursor-pointer">
             <p className="font-LufgaMedium text-[16px]">
               Full Stack Development
             </p>
           </div>
-          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-black cursor-pointer">
+          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-[#121212] cursor-pointer">
             <p className="font-LufgaMedium text-[16px]">Mobile Development</p>
           </div>
-          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-black cursor-pointer">
+          <div className="rounded-[8px] px-[16px] py-[12px] border-2 border-[#d1d1d1] border-solid mr-[20px] mb-4 hover:text-white hover:bg-[#121212] cursor-pointer">
             <p className="font-LufgaMedium text-[16px]">
               Libraries / Packages / Modules / Framework
             </p>
