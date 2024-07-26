@@ -12,7 +12,7 @@ export default function Home() {
         Knowledge is accumulated, intelligence is refined, and understanding is perpetually evolving.
       </p>
       <p className="text-[#666666] font-LufgaMedium text-[20px] mt-[20px] tracking-[-0.02em] leading-[1.4em] font-normal custom-below-425:text-[16px]">
-        Software Engineer - Building Models (Light Work), Backend +
+        Software Engineer - Building Models, Backend +
         Infrastructure Systems & Web + Mobile Apps.
       </p>
       <p className="text-[#666666] font-LufgaMedium text-[20px] mt-[20px] tracking-[-0.02em] leading-[1.4em] font-normal custom-below-425:text-[16px]">
