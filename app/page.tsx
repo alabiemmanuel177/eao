@@ -9,7 +9,7 @@ export default function Home() {
         </h1>
       </div>
       <p className="text-[#666666] font-LufgaBold text-[35px] mt-[20px] font-normal custom-below-425:text-[20px]">
-        Eve said i should remove this text. Special Thanks to EVE 🧍‍♂️
+        Knowledge is accumulated, intelligence is refined, and understanding is perpetually evolving.
       </p>
       <p className="text-[#666666] font-LufgaMedium text-[20px] mt-[20px] tracking-[-0.02em] leading-[1.4em] font-normal custom-below-425:text-[16px]">
         Software Engineer - Building Models (Light Work), Backend +
